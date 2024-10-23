@@ -1,9 +1,15 @@
 package CodingInterview;
+import java.util.Scanner;
 
 public class ReverseString {
 
 	public static void main(String args[]) {
-		String str = "hello world";
+		
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		String str = scanner.nextLine();
 		String reversed = "";
 		
 		//Loop to iterate the string 
