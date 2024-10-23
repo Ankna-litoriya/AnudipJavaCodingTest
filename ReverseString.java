@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class ReverseString {
 
 	public static void main(String args[]) {
-		
-		
-		
+		//to take input
 		Scanner scanner = new Scanner(System.in);
 		
 		String str = scanner.nextLine();
@@ -18,5 +16,10 @@ public class ReverseString {
 		}
 		
 		System.out.println(reversed);
+
+//Closing the scnner object to prevent resource leaks.
+                scanner.close();
 	}
 }
+
+// To reverse a given string
