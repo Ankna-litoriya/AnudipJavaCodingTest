@@ -17,7 +17,7 @@ public class ReverseString {
 		
 		System.out.println(reversed);
 
-//Closing the scnner object to prevent resource leaks.
+                //Closing the scnner object to prevent resource leaks.
                 scanner.close();
 	}
 }
